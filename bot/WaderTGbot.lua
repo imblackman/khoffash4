@@ -263,18 +263,18 @@ function create_config( )
 			"welcome",
 			"rmsg"
     },
-    sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
+    sudo_users = {199042636},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[KING V.10
 An advanced administration bot based on iKD-CLI written in Lua
 
 Admin
-@parsaghafoori
+@Thisisblackman
 
 Our channels
-@anti_spam-group
+@Khoffash_team
 
-thankyou for all admins bot WaderTG
+thankyou for all KHOFFASHBOT
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -359,7 +359,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 
-channel:@anti_spam_group
+channel:@Khoffash_team
 ]],
     help_text = [[
 Commands list :
@@ -489,10 +489,10 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-channel:@anti_spam_group
+channel:@Khoffash_team
 ]],
 	help_text_super =[[
-KING Commands:
+Khoffash Commands:
 =========================
 #info
 About the SuperGroup info
@@ -675,7 +675,7 @@ Text-to-voice
 		new!
 =========================
 *Only from markes "!" , "/" , "#" use*
-Channel:@anti_spam_group
+Channel:@Khoffash_team
 ]],
   }
   serialize_to_file(config, './data/config.lua')
